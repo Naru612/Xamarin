@@ -11,7 +11,7 @@
 	<key>CFBundleName</key>
 	<string>XamarinMap</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.shulearoon.xamarinmap</string>
+	<string>com.shulearoon.XamarinMap</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>

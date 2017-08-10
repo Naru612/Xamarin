@@ -13,7 +13,7 @@ namespace XamarinMap.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
-            Xamarin.FormsMaps.Init(); // Xamarin.Forms.Mapsの初期化コード
+            global::Xamarin.FormsMaps.Init(); // Xamarin.Forms.Mapsの初期化コード
 			LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

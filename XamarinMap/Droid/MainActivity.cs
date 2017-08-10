@@ -21,7 +21,7 @@ namespace XamarinMap.Droid
             base.OnCreate(bundle);
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
-            Xamarin.FormsMaps.Init(this, bundle); // Xamarin.Forms.Mapsの初期化コード
+            global::Xamarin.FormsMaps.Init(this, bundle); // Xamarin.Forms.Mapsの初期化コード
 			LoadApplication(new App());
         }
     }

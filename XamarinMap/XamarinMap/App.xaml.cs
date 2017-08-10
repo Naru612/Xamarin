@@ -31,7 +31,7 @@ namespace XamarinMap
             public XamarinMapPage(){
                 var map = new Map(
                 MapSpan.FromCenterAndRadius(
-                    new Position(35.71, 139.81),
+                    new Position(35.62982, 139.794242),
                         Distance.FromMiles(0.2))){
                     IsShowingUser = true,
                     VerticalOptions = LayoutOptions.FillAndExpand
