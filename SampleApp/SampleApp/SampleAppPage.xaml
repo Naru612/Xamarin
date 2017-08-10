@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:SampleApp" 
+             x:Class="SampleApp.SampleAppPage">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness">
+            <On Platform="iOS">0,20,0,0</On>
+        </OnPlatform>
+    </ContentPage.Padding>
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+        <Label x:Name="lblFirstMessage" Text="Welcome to Xamarin!"
+               VerticalOptions="Center" HorizontalOptions="Center" />
+        <Label x:Name="lblResultMessage" Text="ここに何が表示されるかな? " 
+               VerticalOptions="Center" HorizontalOptions="Center" />
+        <Button x:Name="btn1" Text="現在日付表示" Clicked="btn1_Clicked" />
+        <Entry x:Name="ent1" Text="" />
+        <Button x:Name="btn2" Text="テキストボックスの内容を表示"
+                Clicked="btn2_Clicked" />
+        <Button x:Name="btn3" Text="Sample2へ遷移"
+                Clicked="btn3_Clicked" />
+    </StackLayout>
+</ContentPage>
+
+
+
